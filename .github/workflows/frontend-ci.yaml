@@ -71,7 +71,7 @@ jobs:
         working-directory: starter/frontend
 
     env:
-      REACT_APP_MOVIE_API_URL: http://localhost:5000
+      REACT_APP_MOVIE_API_URL: http://a7e445287f29a48e581053cdf1f2cab0-2676047.us-east-1.elb.amazonaws.com
 
     steps:
       - name: Checkout code
